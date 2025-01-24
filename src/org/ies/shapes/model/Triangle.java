@@ -1,8 +1,8 @@
-package org.ies.forms.model;
+package org.ies.shapes.model;
 
 import java.util.Objects;
 
-public class Triangle extends Form{
+public class Triangle extends Shape {
     protected double base;
     protected double height;
 

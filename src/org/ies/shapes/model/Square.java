@@ -1,8 +1,8 @@
-package org.ies.forms.model;
+package org.ies.shapes.model;
 
 import java.util.Objects;
 
-public class Square extends Form{
+public class Square extends Shape {
     protected double side;
 
     public Square(String color, double side) {
