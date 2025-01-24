@@ -9,8 +9,15 @@ public abstract class Shape{
         this.color = color;
     }
 
+    public void info() {
+        System.out.println(shapeName() + " " + color + ". " + specificFields());
+    }
+
     public abstract double area();
-    public abstract void info();
+
+    public abstract String shapeName();
+
+    public abstract String specificFields();
 
 
     public String getColor() {

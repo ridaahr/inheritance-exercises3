@@ -18,8 +18,13 @@ public class Triangle extends Shape {
     }
 
     @Override
-    public void info() {
-        System.out.println("Base: " + base + ". Altura: " + height + ". área: " + area());
+    public String shapeName() {
+        return "Triángulo";
+    }
+
+    @Override
+    public String specificFields() {
+        return "Base: " + base + ", altura: " + height;
     }
 
     @Override

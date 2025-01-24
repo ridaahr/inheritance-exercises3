@@ -12,13 +12,19 @@ public class Circle extends Shape {
 
     @Override
     public double area() {
-        return  3.14*radius*radius;
+        return Math.PI * radius * radius;
     }
 
     @Override
-    public void info() {
-        System.out.println("Radio: " + radius + ". área: " + area());
+    public String shapeName() {
+        return "Círculo";
     }
+
+    @Override
+    public String specificFields() {
+        return "Radio: " + radius;
+    }
+
 
     @Override
     public boolean equals(Object o) {

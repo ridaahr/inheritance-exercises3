@@ -12,12 +12,17 @@ public class Square extends Shape {
 
     @Override
     public double area() {
-        return side*side;
+        return side * side;
     }
 
     @Override
-    public void info() {
-        System.out.println("Lado: " + side + ". área: " + area());
+    public String shapeName() {
+        return "Cuadrado";
+    }
+
+    @Override
+    public String specificFields() {
+        return "Lado: " + side;
     }
 
     @Override
